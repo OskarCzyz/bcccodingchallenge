@@ -1,9 +1,17 @@
 const Pool = require("pg").Pool;
 const pool = new Pool({
+<<<<<<< HEAD
   user: process.env.DB_USER,
   host: `/cloudsql/${process.env.INSTANCE_CONNECTION_NAME}`,
   database: process.env.DB_NAME,
   password: process.env.DB_PASS,
+=======
+  user: "postgres",
+  host: "34.116.203.145",
+  database: "test",
+  password: "BazyDanych123",
+  port: 5432,
+>>>>>>> f25f5e6 (initial commit)
 });
 
 const getUsers = (request, response) => {

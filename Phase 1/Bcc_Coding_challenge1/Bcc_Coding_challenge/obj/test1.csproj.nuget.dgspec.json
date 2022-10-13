@@ -40,10 +40,13 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+<<<<<<< HEAD
             "Google.Apis.SecretManager.v1": {
               "target": "Package",
               "version": "[1.57.0.2794, )"
             },
+=======
+>>>>>>> f25f5e6 (initial commit)
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[6.0.9, )"

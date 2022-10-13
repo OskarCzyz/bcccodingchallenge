@@ -8,7 +8,10 @@
     ".NETCoreApp,Version=v6.0": {
       "test1/1.0.0": {
         "dependencies": {
+<<<<<<< HEAD
           "Google.Apis.SecretManager.v1": "1.57.0.2794",
+=======
+>>>>>>> f25f5e6 (initial commit)
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.9",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.17.0",
           "Npgsql": "6.0.7",
@@ -18,6 +21,7 @@
           "test1.dll": {}
         }
       },
+<<<<<<< HEAD
       "Google.Apis/1.57.0": {
         "dependencies": {
           "Google.Apis.Core": "1.57.0"
@@ -68,6 +72,8 @@
           }
         }
       },
+=======
+>>>>>>> f25f5e6 (initial commit)
       "Microsoft.AspNetCore.JsonPatch/6.0.9": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
@@ -181,6 +187,7 @@
       "serviceable": false,
       "sha512": ""
     },
+<<<<<<< HEAD
     "Google.Apis/1.57.0": {
       "type": "package",
       "serviceable": true,
@@ -209,6 +216,8 @@
       "path": "google.apis.secretmanager.v1/1.57.0.2794",
       "hashPath": "google.apis.secretmanager.v1.1.57.0.2794.nupkg.sha512"
     },
+=======
+>>>>>>> f25f5e6 (initial commit)
     "Microsoft.AspNetCore.JsonPatch/6.0.9": {
       "type": "package",
       "serviceable": true,

@@ -54,7 +54,11 @@ export default {
         let str = "<table border = 2><tr>";
         let res;
         for (let i = 0; i < this.net; i++) {
+<<<<<<< HEAD
           res = await axios.get(`https://netcoreapi-j56xipfh6a-lm.a.run.app/random`);
+=======
+          res = await axios.get(`http://localhost:7112/random`);
+>>>>>>> f25f5e6 (initial commit)
         }
         for (let i = 0; i < res.data.length; i++) {
           if ((i + 1) % 3 == 0) {
@@ -82,7 +86,11 @@ export default {
         let str = "<table border = 2><tr>";
         let res;
         for (let i = 0; i < this.nodejs; i++) {
+<<<<<<< HEAD
           res = await axios.get(`https://nodejs-image-j56xipfh6a-lm.a.run.app/random`);
+=======
+          res = await axios.get(`http://localhost:3000/random`);
+>>>>>>> f25f5e6 (initial commit)
         }
         for (let i = 0; i < res.data.length; i++) {
           if ((i + 1) % 3 == 0) {
