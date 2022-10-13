@@ -1,0 +1,54 @@
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc Coding challenge\Bcc Coding challenge\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc Coding challenge\Bcc Coding challenge\bin\Debug\net6.0\appsettings.json
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc Coding challenge\Bcc Coding challenge\bin\Debug\net6.0\Bcc Coding challenge.exe
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc Coding challenge\Bcc Coding challenge\bin\Debug\net6.0\Bcc Coding challenge.deps.json
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc Coding challenge\Bcc Coding challenge\bin\Debug\net6.0\Bcc Coding challenge.runtimeconfig.json
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc Coding challenge\Bcc Coding challenge\bin\Debug\net6.0\Bcc Coding challenge.dll
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc Coding challenge\Bcc Coding challenge\bin\Debug\net6.0\Bcc Coding challenge.pdb
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc Coding challenge\Bcc Coding challenge\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc Coding challenge\Bcc Coding challenge\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc Coding challenge\Bcc Coding challenge\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc Coding challenge\Bcc Coding challenge\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc Coding challenge\Bcc Coding challenge\obj\Debug\net6.0\Bcc Coding challenge.csproj.AssemblyReference.cache
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc Coding challenge\Bcc Coding challenge\obj\Debug\net6.0\Bcc Coding challenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc Coding challenge\Bcc Coding challenge\obj\Debug\net6.0\Bcc Coding challenge.AssemblyInfoInputs.cache
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc Coding challenge\Bcc Coding challenge\obj\Debug\net6.0\Bcc Coding challenge.AssemblyInfo.cs
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc Coding challenge\Bcc Coding challenge\obj\Debug\net6.0\Bcc Coding challenge.csproj.CoreCompileInputs.cache
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc Coding challenge\Bcc Coding challenge\obj\Debug\net6.0\Bcc Coding challenge.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc Coding challenge\Bcc Coding challenge\obj\Debug\net6.0\Bcc Coding challenge.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc Coding challenge\Bcc Coding challenge\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc Coding challenge\Bcc Coding challenge\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc Coding challenge\Bcc Coding challenge\obj\Debug\net6.0\scopedcss\bundle\Bcc Coding challenge.styles.css
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc Coding challenge\Bcc Coding challenge\obj\Debug\net6.0\Bcc Coding challenge.csproj.CopyComplete
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc Coding challenge\Bcc Coding challenge\obj\Debug\net6.0\Bcc Coding challenge.dll
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc Coding challenge\Bcc Coding challenge\obj\Debug\net6.0\refint\Bcc Coding challenge.dll
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc Coding challenge\Bcc Coding challenge\obj\Debug\net6.0\Bcc Coding challenge.pdb
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc Coding challenge\Bcc Coding challenge\obj\Debug\net6.0\Bcc Coding challenge.genruntimeconfig.cache
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc Coding challenge\Bcc Coding challenge\obj\Debug\net6.0\ref\Bcc Coding challenge.dll
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc Coding challenge\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc Coding challenge\bin\Debug\net6.0\appsettings.json
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc Coding challenge\bin\Debug\net6.0\Bcc Coding challenge.exe
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc Coding challenge\bin\Debug\net6.0\Bcc Coding challenge.deps.json
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc Coding challenge\bin\Debug\net6.0\Bcc Coding challenge.runtimeconfig.json
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc Coding challenge\bin\Debug\net6.0\Bcc Coding challenge.dll
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc Coding challenge\bin\Debug\net6.0\Bcc Coding challenge.pdb
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc Coding challenge\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc Coding challenge\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc Coding challenge\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc Coding challenge\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc Coding challenge\obj\Debug\net6.0\Bcc Coding challenge.csproj.AssemblyReference.cache
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc Coding challenge\obj\Debug\net6.0\Bcc Coding challenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc Coding challenge\obj\Debug\net6.0\Bcc Coding challenge.AssemblyInfoInputs.cache
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc Coding challenge\obj\Debug\net6.0\Bcc Coding challenge.AssemblyInfo.cs
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc Coding challenge\obj\Debug\net6.0\Bcc Coding challenge.csproj.CoreCompileInputs.cache
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc Coding challenge\obj\Debug\net6.0\Bcc Coding challenge.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc Coding challenge\obj\Debug\net6.0\Bcc Coding challenge.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc Coding challenge\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc Coding challenge\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc Coding challenge\obj\Debug\net6.0\scopedcss\bundle\Bcc Coding challenge.styles.css
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc Coding challenge\obj\Debug\net6.0\Bcc Coding challenge.csproj.CopyComplete
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc Coding challenge\obj\Debug\net6.0\Bcc Coding challenge.dll
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc Coding challenge\obj\Debug\net6.0\refint\Bcc Coding challenge.dll
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc Coding challenge\obj\Debug\net6.0\Bcc Coding challenge.pdb
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc Coding challenge\obj\Debug\net6.0\Bcc Coding challenge.genruntimeconfig.cache
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc Coding challenge\obj\Debug\net6.0\ref\Bcc Coding challenge.dll
