@@ -27,9 +27,7 @@ namespace Bcc_Coding_challenge.Controllers
         {
             return Randoms.nums();
         }
-           "ConnectionStrings": {
-                "NumbersAppCon": "Server=/cloudsql/bcccodingchallenge:europe-central2:database-test;Database=test;Ssl Mode=Disable;User Id=postgres;Password=BazyDanych123"
-            },
+           yyy
         */
 
     
@@ -44,11 +42,9 @@ namespace Bcc_Coding_challenge.Controllers
                 
             DataTable table = new DataTable();
             
-            string NumbersAppCon1 = "Server=/cloudsql/bcccodingchallenge:europe-central2:database-test;Database=test;Ssl Mode=Disable;User Id=postgres;Password=BazyDanych123";
-
-            string sqlDataSource = _configuration.GetConnectionString("NumbersAppCon1");
+            
             NpgsqlDataReader myReader;
-            using (NpgsqlConnection myCon = new NpgsqlConnection(sqlDataSource))
+            using (NpgsqlConnection myCon = new NpgsqlConnection(Environment.GetEnvironmentVariable("WHOLE_LINK")))
             {
                 for (int i = 0; i < testing.Length; i++)
                 {
@@ -82,14 +78,5 @@ namespace Bcc_Coding_challenge.Controllers
 
             return new JsonResult(table);
         }
-
-        
-         
-
-            
-                
-            
-        
-
     }
 }
