@@ -1,0 +1,36 @@
+services:
+  web:
+    container_name: vue
+    build: "/Phase 2/demo"
+    ports: 
+      - "8080:8080"
+  api: 
+    container_name: api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    build: "/Phase 1/Bcc_Coding_Challenge1/Bcc_Coding_challenge"
+    ports: 
+      - "7112:80"
+  node_api: 
+    container_name: node_api
+    build: "/Phase 3"
+    ports: 
+      - "3000:3000"
+  db:
+    container_name: db
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: BazyDanych123
+      POSTGRES_DB: test
+    ports:
+      - "5432:5432"
+  pgadmin:
+    container_name: pgadmin4_container
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: root
+    ports:
+      - "5050:80"
