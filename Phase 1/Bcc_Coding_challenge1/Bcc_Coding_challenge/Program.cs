@@ -15,7 +15,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddCors(p => p.AddPolicy("corspolicy", build =>
 {
-    build.WithOrigins("http://localhost:8080").AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin();
+    build.WithOrigins("https://vuejs-image-j56xipfh6a-uc.a.run.app/").AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin();
 }));
 
 // enable single domain

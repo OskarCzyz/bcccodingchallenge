@@ -54,7 +54,7 @@ export default {
         let str = "<table border = 2><tr>";
         let res;
         for (let i = 0; i < this.net; i++) {
-          res = await axios.get(`http://localhost:7112/random`);
+          res = await axios.get(`https://netcoreapi-j56xipfh6a-lm.a.run.app/random`);
         }
         for (let i = 0; i < res.data.length; i++) {
           if ((i + 1) % 3 == 0) {
@@ -82,7 +82,7 @@ export default {
         let str = "<table border = 2><tr>";
         let res;
         for (let i = 0; i < this.nodejs; i++) {
-          res = await axios.get(`http://localhost:3000/random`);
+          res = await axios.get(`https://nodejs-image-j56xipfh6a-lm.a.run.app/random`);
         }
         for (let i = 0; i < res.data.length; i++) {
           if ((i + 1) % 3 == 0) {

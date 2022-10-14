@@ -17,10 +17,11 @@ app.get('/', (request, response) => {
   response.json({ info: 'Node.js, Express, and Postgres API' })
 })
 
-
-
 app.get('/random', db.getUsers)
 
+app.get('/test', (request, response) => {
+  response.json({ number: `${Math.floor(Math.random() * 2147483647)}` })
+})
 
 app.listen(port, () => {
     console.log(`App running on port ${port}.`)
