@@ -57,3 +57,8 @@ C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc_C
 C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc_Coding_challenge\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc_Coding_challenge\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc_Coding_challenge\bin\Debug\net6.0\Npgsql.dll
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc_Coding_challenge\bin\Debug\net6.0\Google.Apis.dll
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc_Coding_challenge\bin\Debug\net6.0\Google.Apis.Auth.PlatformServices.dll
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc_Coding_challenge\bin\Debug\net6.0\Google.Apis.Auth.dll
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc_Coding_challenge\bin\Debug\net6.0\Google.Apis.Core.dll
+C:\Users\oskar\source\repos\Coding challenge\Phase 1\Bcc_Coding_challenge1\Bcc_Coding_challenge\bin\Debug\net6.0\Google.Apis.SecretManager.v1.dll

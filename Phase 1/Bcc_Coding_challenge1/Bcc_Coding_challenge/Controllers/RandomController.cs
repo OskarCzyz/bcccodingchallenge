@@ -14,6 +14,7 @@ namespace Bcc_Coding_challenge.Controllers
 
     public class RandomController : Controller
     {
+
         private readonly IConfiguration _configuration;
 
         public RandomController(IConfiguration configuration)
@@ -38,6 +39,8 @@ namespace Bcc_Coding_challenge.Controllers
                 ";
                 
             DataTable table = new DataTable();
+            
+
             string sqlDataSource = _configuration.GetConnectionString("NumbersAppCon");
             NpgsqlDataReader myReader;
             using (NpgsqlConnection myCon = new NpgsqlConnection(sqlDataSource))
