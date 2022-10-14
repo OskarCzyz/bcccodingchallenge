@@ -14,7 +14,7 @@ app.use(
 )
 
 app.get('/', (request, response) => {
-  response.json({ info: 'To jest wersja z git actions' })
+  response.json({ info: 'Test' })
 })
 
 app.get('/random', db.getUsers)
