@@ -1,5 +1,5 @@
 # .github/workflows/deploy.yml
-name: Deploy to Google Cloud Run2
+name: Deploy to Google Cloud Run test
 on:
   push:
     paths: 
