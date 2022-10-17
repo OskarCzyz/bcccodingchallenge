@@ -1,5 +1,5 @@
 # .github/workflows/deploy.yml
-name: Deploy 🚀 Clima to Google Cloud Run (☁🏃)
+name: Deploy to Google Cloud Run
 on:
   push:
     paths: 
@@ -7,7 +7,7 @@ on:
       
 jobs:
   deploy:
-    name: Deploying 🚀 Clima
+    name: Deploying
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -22,11 +22,11 @@ jobs:
           service_account_email: "github-actions@bcccodingchallenge.iam.gserviceaccount.com"
           project_id: bcccodingchallenge
 
-      - name: Building (🏗)
+      - name: Building
         run: |-
           gcloud builds submit --tag eu-central2-docker.pkg.dev/bcccodingchallenge/netcoreapi:test5
       # Setup gcloud CLI
-      - name: Deploy (🚀)
+      - name: Deploy
         uses: google-github-actions/deploy-cloudrun@v0
         with:
           service: netcoreapi:test5
