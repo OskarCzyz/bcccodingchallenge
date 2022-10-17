@@ -24,8 +24,8 @@ jobs:
 
       - name: przejscie
         run: |-
-            cd '/Bcc_Coding_challenge1/Bcc_Coding_challenge'
-            
+            cd 'Phase 1/Bcc_Coding_challenge1/Bcc_Coding_challenge/'
+
       - name: Building (🏗)
         run: |-
           gcloud builds submit --tag gcr.io/bcccodingchallenge/netcoreapi:test5
