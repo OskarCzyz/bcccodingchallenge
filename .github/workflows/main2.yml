@@ -2,8 +2,8 @@
 name: Deploy to Google Cloud Run test
 on:
   push:
-    paths: 
-      - "Phase 1/**"
+    branches: 
+      - main
       
 jobs:
   deploy:
