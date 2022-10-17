@@ -2,8 +2,8 @@
 name: Deploy 🚀 Clima to Google Cloud Run (☁🏃)
 on:
   push:
-    paths: 
-      - Phase_1/Bcc_Coding_challenge1/Bcc_Coding_challegne/**
+    branches: 
+      - 'Phase 1/Bcc_Coding_challenge1/Bcc_Coding_challegne/**'
       
 jobs:
   deploy:
