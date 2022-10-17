@@ -22,13 +22,15 @@ jobs:
           service_account_email: "oskarsczyz@gmail.com"
           project_id: bcccodingchallenge
 
-      - name: przejscie
-        run: |-
-            cd 'Phase 1/Bcc_Coding_challenge1/Bcc_Coding_challenge/'
-
       - name: Building (🏗)
         run: |-
           gcloud builds submit --tag gcr.io/bcccodingchallenge/netcoreapi:test5
+
+      - name: 'gcr.io/cloud-builders/docker'
+          entrypoint: 'bash'
+          args:
+          - '-c'
+          - docker pull gcr.io/$PROJECT_ID/my-image || exit 0
 
       # Setup gcloud CLI
       - name: Deploy (🚀)
