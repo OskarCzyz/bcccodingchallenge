@@ -25,14 +25,13 @@ jobs:
       - name: Building
         run: |-
           cd "Phase 3"
-          ls
-          gcloud builds submit --tag gcr.io/bcccodingchallenge/netcoreapitestt
+          gcloud builds submit --tag gcr.io/bcccodingchallenge/nodejs-image
       # Setup gcloud CLI
       - name: Deploy
         uses: google-github-actions/deploy-cloudrun@v0
         with:
-          service: netcoreapitestt
-          image: gcr.io/bcccodingchallenge/netcoreapitestt
+          service: nodejs-image
+          image: gcr.io/bcccodingchallenge/nodejs-image
           region: europe-central2
           credentials: ${{ secrets.GCP_SA_KEY_JSON }}
           project_id: bcccodingchallenge
