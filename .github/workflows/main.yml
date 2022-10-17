@@ -23,8 +23,8 @@ jobs:
           project_id: bcccodingchallenge
 
       - name: Building (🏗)
-        run:
-          cd 'Bcc_Coding_challenge1/Bcc_Coding_challenge'
+        run: |-
+          cd '/Bcc_Coding_challenge1/Bcc_Coding_challenge'
         run: |-
           gcloud builds submit --tag gcr.io/bcccodingchallenge/netcoreapi:test5
 
