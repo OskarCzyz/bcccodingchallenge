@@ -2,9 +2,8 @@
 name: Deploy to Google Cloud Run
 on:
   push:
-    paths-ignore: 
-      - "Phase 1/**"
-      - "Phase 2/**"
+    paths: 
+      - "Phase 3/*"
       
 jobs:
   deploy:
@@ -25,7 +24,7 @@ jobs:
 
       - name: Building
         run: |-
-          gcloud builds submit --tag gcr.io/bcccodingchallenge/netcoreapitestt
+          ls
       # Setup gcloud CLI
       - name: Deploy
         uses: google-github-actions/deploy-cloudrun@v0
