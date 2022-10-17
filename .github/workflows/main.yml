@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths: 
+      - 'Phase 1/Bcc_Coding_challenge1/Bcc_Coding_challegne/**'
       
 jobs:
   deploy:
