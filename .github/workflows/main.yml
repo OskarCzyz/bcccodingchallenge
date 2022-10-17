@@ -2,8 +2,8 @@
 name: Deploy 🚀 Clima to Google Cloud Run (☁🏃)
 on:
   push:
-    paths: 
-      - 'Phase 3/**'
+    branches:
+    - main
 
 jobs:
   deploy:
