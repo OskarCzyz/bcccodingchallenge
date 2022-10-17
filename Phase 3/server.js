@@ -3,6 +3,7 @@ const bodyParser = require('body-parser')
 const cors = require('cors');
 const app = express()
 const db = require('./test_folder/queries.js')
+const port = 3000
 
 app.use(bodyParser.json())
 app.use(
@@ -13,7 +14,7 @@ app.use(
 )
 
 app.get('/', (request, response) => {
-  response.json({ info: 'Test 011' })
+  response.json({ info: 'Test 012' })
 })
 
 app.get('/random', db.getUsers)
