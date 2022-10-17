@@ -3,7 +3,7 @@ name: Deploy to Google Cloud Run
 on:
   push:
     paths: 
-      - 'Phase 3/'
+      - "Phase 3/*"
       
 jobs:
   deploy:
@@ -19,7 +19,7 @@ jobs:
         with:
           version: '286.0.0'
           service_account_key: ${{ secrets.GCP_SA_KEY_JSON }}
-          service_account_email: 'github-actions@bcccodingchallenge.iam.gserviceaccount.com'
+          service_account_email: "github-actions@bcccodingchallenge.iam.gserviceaccount.com"
           project_id: bcccodingchallenge
 
       - name: Building
