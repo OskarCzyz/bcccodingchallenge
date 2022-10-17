@@ -26,12 +26,6 @@ jobs:
         run: |-
           gcloud builds submit --tag gcr.io/bcccodingchallenge/netcoreapi:test5
 
-      - name: 'gcr.io/cloud-builders/docker'
-          entrypoint: 'bash'
-          args:
-          - '-c'
-          - docker pull gcr.io/$PROJECT_ID/my-image || exit 0
-
       # Setup gcloud CLI
       - name: Deploy (🚀)
         uses: google-github-actions/deploy-cloudrun@main
