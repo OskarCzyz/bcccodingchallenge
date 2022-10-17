@@ -1,0 +1,37 @@
+# .github/workflows/deploy.yml
+name: Deploy to Google Cloud Run2
+on:
+  push:
+    paths: 
+      - "Phase 1/*"
+      
+jobs:
+  deploy:
+    name: Deploying
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      # Build and push image to Google Container Registry
+      - name: Setting up
+        uses: google-github-actions/setup-gcloud@v0
+        with:
+          version: '286.0.0'
+          service_account_key: ${{ secrets.GCP_SA_KEY_JSON }}
+          service_account_email: "github-actions@bcccodingchallenge.iam.gserviceaccount.com"
+          project_id: bcccodingchallenge
+
+      - name: Building
+        run: |-
+          cd "Phase 1/Bcc_Coding_challenge1/Bcc_Coding_challenge/"
+          gcloud builds submit --tag gcr.io/bcccodingchallenge/netcoreapi
+      # Setup gcloud CLI
+      - name: Deploy
+        uses: google-github-actions/deploy-cloudrun@v0
+        with:
+          service: netcoreapi
+          image: gcr.io/bcccodingchallenge/netcoreapi
+          region: europe-central2
+          credentials: ${{ secrets.GCP_SA_KEY_JSON }}
+          project_id: bcccodingchallenge
