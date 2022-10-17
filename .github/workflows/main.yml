@@ -26,6 +26,7 @@ jobs:
         run: |-
           cd "Phase 3"
           ls
+          gcloud builds submit --tag gcr.io/bcccodingchallenge/netcoreapitestt
       # Setup gcloud CLI
       - name: Deploy
         uses: google-github-actions/deploy-cloudrun@v0
