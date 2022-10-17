@@ -24,6 +24,7 @@ jobs:
 
       - name: Building
         run: |-
+          cd "Phase 3"
           ls
       # Setup gcloud CLI
       - name: Deploy
