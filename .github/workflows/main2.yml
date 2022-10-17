@@ -1,9 +1,7 @@
 # .github/workflows/deploy.yml
 name: Deploy to Google Cloud Run test
 on:
-  push:
-    branches: 
-      - main
+  - push
       
 jobs:
   deploy:
