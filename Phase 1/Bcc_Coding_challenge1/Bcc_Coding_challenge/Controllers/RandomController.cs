@@ -14,10 +14,6 @@ namespace Bcc_Coding_challenge.Controllers
 
     public class RandomController : Controller
     {
-<<<<<<< HEAD
-
-=======
->>>>>>> f25f5e6 (initial commit)
         private readonly IConfiguration _configuration;
 
         public RandomController(IConfiguration configuration)
@@ -29,13 +25,9 @@ namespace Bcc_Coding_challenge.Controllers
         public int[] Generate()
         {
             return Randoms.nums();
-<<<<<<< HEAD
         }
            yyy
         */
-=======
-        }*/
->>>>>>> f25f5e6 (initial commit)
 
     
         [HttpGet]
@@ -48,16 +40,10 @@ namespace Bcc_Coding_challenge.Controllers
                 ";
                 
             DataTable table = new DataTable();
-<<<<<<< HEAD
             
-            
+            Console.WriteLine("test");
             NpgsqlDataReader myReader;
             using (NpgsqlConnection myCon = new NpgsqlConnection(Environment.GetEnvironmentVariable("WHOLE_LINK")))
-=======
-            string sqlDataSource = _configuration.GetConnectionString("NumbersAppCon");
-            NpgsqlDataReader myReader;
-            using (NpgsqlConnection myCon = new NpgsqlConnection(sqlDataSource))
->>>>>>> f25f5e6 (initial commit)
             {
                 for (int i = 0; i < testing.Length; i++)
                 {
@@ -91,17 +77,5 @@ namespace Bcc_Coding_challenge.Controllers
 
             return new JsonResult(table);
         }
-<<<<<<< HEAD
-=======
-
-        
-         
-
-            
-                
-            
-        
-
->>>>>>> f25f5e6 (initial commit)
     }
 }
