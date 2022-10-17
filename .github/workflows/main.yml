@@ -2,9 +2,9 @@
 name: Deploy 🚀 Clima to Google Cloud Run (☁🏃)
 on:
   push:
-    branches: 
-      - main
-      
+    paths: 
+      - 'Phase 1/**'
+
 jobs:
   deploy:
     name: Deploying 🚀 Clima
@@ -24,7 +24,7 @@ jobs:
 
       - name: Building (🏗)
         run:
-          cd 'Phase 1/Bcc_Coding_challenge1/Bcc_Coding_challenge'
+          cd 'Bcc_Coding_challenge1/Bcc_Coding_challenge'
         run: |-
           gcloud builds submit --tag gcr.io/bcccodingchallenge/netcoreapi:test5
 
