@@ -3,7 +3,7 @@ name: Deploy 🚀 Clima to Google Cloud Run (☁🏃)
 on:
   push:
     paths: 
-      - 'bcccodingchalllenge/Phase 3/**'
+      - 'Phase 1/**'
       
 jobs:
   deploy:
@@ -24,11 +24,10 @@ jobs:
 
       - name: Building (🏗)
         run: |-
-          gcloud builds submit --tag gcr.io/bcccodingchallenge/netcoreapi:test5
-
+          gcloud builds submit --tag eu-central2-docker.pkg.dev/bcccodingchallenge/netcoreapi:test5
       # Setup gcloud CLI
       - name: Deploy (🚀)
-        uses: google-github-actions/deploy-cloudrun@main
+        uses: google-github-actions/deploy-cloudrun@v0
         with:
           service: netcoreapi:test5
           image: gcr.io/bcccodingchallenge/netcoreapi:test5
