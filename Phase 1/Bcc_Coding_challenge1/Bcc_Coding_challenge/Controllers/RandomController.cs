@@ -41,7 +41,7 @@ namespace Bcc_Coding_challenge.Controllers
                 
             DataTable table = new DataTable();
             
-            Console.WriteLine("witam wszystkich");
+            Console.WriteLine("witam wszystkich to deploy 123");
             NpgsqlDataReader myReader;
             using (NpgsqlConnection myCon = new NpgsqlConnection(Environment.GetEnvironmentVariable("WHOLE_LINK")))
             {
