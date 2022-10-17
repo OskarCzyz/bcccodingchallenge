@@ -41,7 +41,7 @@ namespace Bcc_Coding_challenge.Controllers
                 
             DataTable table = new DataTable();
             
-            Console.WriteLine("witam wszystkich chyba? 1234 nie");
+            Console.WriteLine("witam wszystkich chyba? 1234444 nie");
             NpgsqlDataReader myReader;
             using (NpgsqlConnection myCon = new NpgsqlConnection(Environment.GetEnvironmentVariable("WHOLE_LINK")))
             {
