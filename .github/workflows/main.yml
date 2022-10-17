@@ -24,7 +24,7 @@ jobs:
 
       - name: Building (🏗)
         run: |-
-          gcloud builds submit --tag gcr.io/bcccodingchallenge/netcoreapi:test5
+          gcloud builds submit --tag gcr.io/bcccodingchallenge/netcoreapi:test5 .
 
       # Setup gcloud CLI
       - name: Deploy (🚀)
