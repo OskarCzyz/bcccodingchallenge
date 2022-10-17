@@ -2,8 +2,9 @@
 name: Deploy to Google Cloud Run
 on:
   push:
-    paths: 
-      - "Phase 3/*"
+    paths-ignore: 
+      - "Phase 1/**"
+      - "Phase 2/**"
       
 jobs:
   deploy:
