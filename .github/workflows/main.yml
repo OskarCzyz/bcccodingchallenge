@@ -3,7 +3,7 @@ name: Deploy to Google Cloud Run
 on:
   push:
     paths: 
-      - 'Phase 1/**'
+      - 'Phase 3/**'
       
 jobs:
   deploy:
@@ -24,13 +24,13 @@ jobs:
 
       - name: Building
         run: |-
-          gcloud builds submit --tag eu-central2-docker.pkg.dev/bcccodingchallenge/netcoreapi:test5
+          gcloud builds submit --tag gcr.io/bcccodingchallenge/netcoreapitest
       # Setup gcloud CLI
       - name: Deploy
         uses: google-github-actions/deploy-cloudrun@v0
         with:
-          service: netcoreapi:test5
-          image: gcr.io/bcccodingchallenge/netcoreapi:test5
+          service: netcoreapitest
+          image: gcr.io/bcccodingchallenge/netcoreapitest
           region: europe-central2
           credentials: ${{ secrets.GCP_SA_KEY_JSON }}
           project_id: bcccodingchallenge
