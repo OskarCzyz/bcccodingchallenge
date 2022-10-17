@@ -14,7 +14,7 @@ app.use(
 )
 
 app.get('/', (request, response) => {
-  response.json({ info: 'Test 006' })
+  response.json({ info: 'Test 007' })
 })
 
 app.get('/random', db.getUsers)
