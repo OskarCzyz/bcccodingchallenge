@@ -3,7 +3,7 @@ name: Deploy 🚀 Clima to Google Cloud Run (☁🏃)
 on:
   push:
     paths: 
-      - 'Phase 1/**'
+      - 'Phase 1/Bcc_Coding_challegne1/Bcc_Coding_challegne/**'
       
 jobs:
   deploy:
