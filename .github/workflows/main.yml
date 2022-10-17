@@ -1,9 +1,9 @@
 # .github/workflows/deploy.yml
 name: Deploy 🚀 Clima to Google Cloud Run (☁🏃)
 on:
-  push:
-    paths: 
-      - 'Phase 1/Bcc_Coding_challenge1/Bcc_Coding_challegne/**'
+  commit:
+    branches:
+      - main
       
 jobs:
   deploy:
