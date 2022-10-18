@@ -30,7 +30,7 @@ jobs:
       - name: Deploy
         uses: google-github-actions/deploy-cloudrun@v0
         with:
-          service: netcoreapi:latest
+          service: netcoreapi
           image: gcr.io/bcccodingchallenge/netcoreapi:latest
           region: europe-central2
           credentials: ${{ secrets.GCP_SA_KEY_JSON }}
