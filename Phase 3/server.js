@@ -24,7 +24,7 @@ app.get('/test', (request, response) => {
 })
 
 app.get('/loaderio-53ea7526e9151fc1384f1cec39b9c739', (request, response) => {
-  response("loaderio-53ea7526e9151fc1384f1cec39b9c73")
+  response.send(`loaderio-53ea7526e9151fc1384f1cec39b9c739`)
 })
 
 app.listen(port, () => {
