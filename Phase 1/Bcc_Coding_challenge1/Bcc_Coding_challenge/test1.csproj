@@ -7,7 +7,6 @@
     <RootNamespace>Bcc_Coding_challenge</RootNamespace>
     <UserSecretsId>282b5f19-27d2-4670-8fc1-a4b44425f63b</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-    <AnalysisLevel>none</AnalysisLevel>
   </PropertyGroup>
 
   <ItemGroup>
