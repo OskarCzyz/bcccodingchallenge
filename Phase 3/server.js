@@ -23,8 +23,8 @@ app.get('/test', (request, response) => {
   response.json({ number: `${Math.floor(Math.random() * 2147483647)}` })
 })
 
-app.get('/loaderio-53ea7526e9151fc1384f1cec39b9c739', (request, response) => {
-  response.send(`loaderio-53ea7526e9151fc1384f1cec39b9c739`)
+app.get('/loaderio-a043f9e4a31a2275fc611c597f6e0896', (request, response) => {
+  response.send(`loaderio-a043f9e4a31a2275fc611c597f6e0896`)
 })
 
 app.listen(port, () => {
