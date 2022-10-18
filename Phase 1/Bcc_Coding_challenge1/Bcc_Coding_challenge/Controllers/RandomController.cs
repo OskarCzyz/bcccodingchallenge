@@ -41,7 +41,7 @@ namespace Bcc_Coding_challenge.Controllers
                 
             DataTable table = new DataTable();
             
-            Console.WriteLine("to chyba dziala tak jak kk aa");
+            Console.WriteLine("czemu to nie dziala?");
             NpgsqlDataReader myReader;
             using (NpgsqlConnection myCon = new NpgsqlConnection(Environment.GetEnvironmentVariable("WHOLE_LINK")))
             {
