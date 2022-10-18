@@ -3,7 +3,7 @@ name: Deploy to Google Cloud Run
 on:
   push:
     paths: 
-      - "Phase 3/*"
+      - "Phase 3/**"
       
 jobs:
   deploy:
