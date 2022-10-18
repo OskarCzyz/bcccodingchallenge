@@ -1,6 +1,5 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "k3NzfuA++WA+IeN4MyNHdzl4RtKepbgW427TBwiZyAvnp7ltF4sBg7oesLE5Tr28JzuTPziCERViXCH2ZZondg==",
   "success": true,
   "projectFilePath": "C:\\Users\\oskar\\source\\repos\\Coding challenge\\Phase 1\\Bcc_Coding_challenge1\\Bcc_Coding_challenge\\test1.csproj",
@@ -9,12 +8,6 @@
     "C:\\Users\\oskar\\.nuget\\packages\\google.apis.auth\\1.57.0\\google.apis.auth.1.57.0.nupkg.sha512",
     "C:\\Users\\oskar\\.nuget\\packages\\google.apis.core\\1.57.0\\google.apis.core.1.57.0.nupkg.sha512",
     "C:\\Users\\oskar\\.nuget\\packages\\google.apis.secretmanager.v1\\1.57.0.2794\\google.apis.secretmanager.v1.1.57.0.2794.nupkg.sha512",
-=======
-  "dgSpecHash": "9jeZh0LWpMWA84cPRtUJp/nMIkT/DaqUA1GeZUhTsWt1b96XFUOIfBb7xbnsTUpmEFOnyjFMqY0yUfphuJGVoQ==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\oskar\\source\\repos\\Coding challenge\\Phase 1\\Bcc_Coding_challenge1\\Bcc_Coding_challenge\\test1.csproj",
-  "expectedPackageFiles": [
->>>>>>> f25f5e6 (initial commit)
     "C:\\Users\\oskar\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.9\\microsoft.aspnetcore.jsonpatch.6.0.9.nupkg.sha512",
     "C:\\Users\\oskar\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.9\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.9.nupkg.sha512",
     "C:\\Users\\oskar\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -30,5 +23,12 @@
     "C:\\Users\\oskar\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
     "C:\\Users\\oskar\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\oskar\\source\\repos\\Coding challenge\\Phase 1\\Bcc_Coding_challenge1\\Bcc_Coding_challenge\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
