@@ -24,6 +24,7 @@ jobs:
         run: |-
           cd "Phase 1/Bcc_Coding_challenge1/Bcc_Coding_challenge/"
           gcloud builds submit --tag gcr.io/bcccodingchallenge/netcoreapi
+          ls
       # Setup gcloud CLI
       - name: Deploy
         uses: google-github-actions/deploy-cloudrun@v0
