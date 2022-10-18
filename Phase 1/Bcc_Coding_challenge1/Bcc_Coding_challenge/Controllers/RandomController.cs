@@ -41,7 +41,7 @@ namespace Bcc_Coding_challenge.Controllers
                 
             DataTable table = new DataTable();
             
-            Console.WriteLine("czemu to nie dziala?");
+            Console.WriteLine("kiedy to pisze to jest 11:52");
             NpgsqlDataReader myReader;
             using (NpgsqlConnection myCon = new NpgsqlConnection(Environment.GetEnvironmentVariable("WHOLE_LINK")))
             {
