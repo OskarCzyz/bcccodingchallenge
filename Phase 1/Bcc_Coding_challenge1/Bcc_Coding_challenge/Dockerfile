@@ -19,4 +19,4 @@ RUN dotnet publish "test1.csproj" -c Release -o /app/publish /p:UseAppHost=false
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "test1.dll"]
+ENTRYPOINT ["dotnet", "test1.csproj"]
