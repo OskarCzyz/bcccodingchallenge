@@ -2,7 +2,7 @@
   <div class="home">
     This is home page!
   </div>
-  <div>Jest 11:57</div>
+  <div>Jest 15:08</div>
 </template>
 
 <script>
