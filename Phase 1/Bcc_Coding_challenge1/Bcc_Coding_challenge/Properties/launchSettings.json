@@ -32,7 +32,7 @@
     "anonymousAuthentication": true,
     "iisExpress": {
       "applicationUrl": "localhost:7112",
-      "sslPort": 80
+      "sslPort": 7112
     }
   }
 }
