@@ -3,7 +3,6 @@
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
 EXPOSE 80
-EXPOSE 433
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
@@ -18,5 +17,6 @@ RUN dotnet publish "test1.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
+ENV PORT 80 ENV HOST 0.0.0.0
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "test1.ddl"]
