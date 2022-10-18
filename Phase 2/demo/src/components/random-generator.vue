@@ -23,11 +23,11 @@
   </table>
   <div>
     <div style="display: inline-block">
-      .Net core api <br />
+      <img src="https://porozmawiajmyoit.pl/wp-content/uploads/2021/04/1200px-.NET_Logo.svg_.png" alt=".net"> <br />
       <div v-html="Numbers"></div>
     </div>
     <div style="display: inline-block; margin-left: 100px">
-      Node <br />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1920px-Node.js_logo.svg.png" alt="node"> <br />
       <div v-html="Numbers2"></div>
     </div>
   </div>
@@ -51,7 +51,7 @@ export default {
     show: async function () {
       try {
         let startTime = new Date().getTime();
-        let str = "<table border = 2><tr>";
+        let str = "<tr>";
         let res;
         for (let i = 0; i < this.net; i++) {
           res = await axios.get(`https://netcoreapi-j56xipfh6a-lm.a.run.app/random`);
@@ -68,10 +68,12 @@ export default {
         }
 
         let endTime = new Date().getTime();
-        str += `<td colspan=3 style="text-align: center;">.Net ≈	${Math.round(
+        let str1 = `<table class='results' border = 2><tr><td colspan=3 style="text-align: center;">.Net ≈	${Math.round(
           endTime - 4 - startTime
-        )} milliseconds</td></tr></table>`;
-        return (this.Numbers = str);
+        )} milliseconds</td><tr>`;
+        str += `</tr></table>`;
+        str1 += str;
+        return (this.Numbers = str1);
       } catch (error) {
         console.log(error);
       }
@@ -79,7 +81,7 @@ export default {
     node: async function () {
       try {
         let startTime = new Date().getTime();
-        let str = "<table border = 2><tr>";
+        let str = "<tr>";
         let res;
         for (let i = 0; i < this.nodejs; i++) {
           res = await axios.get(`https://nodejs-image-j56xipfh6a-lm.a.run.app/random`);
@@ -96,10 +98,12 @@ export default {
         }
 
         let endTime = new Date().getTime();
-        str += `<td colspan=3 style="text-align: center;">.Node ≈	${Math.round(
+        let str1 = `<table class='results' border = 2><tr><td colspan=3 style="text-align: center;">Node ≈	${Math.round(
           endTime - 4 - startTime
-        )} milliseconds</td></tr></table>`;
-        return (this.Numbers2 = str);
+        )} milliseconds</td><tr>`
+        str += `</tr></table>`;
+        str1 += str;
+        return (this.Numbers2 = str1);
       } catch (error) {
         console.log(error);
       }
