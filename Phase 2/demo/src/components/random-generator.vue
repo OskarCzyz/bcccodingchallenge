@@ -5,7 +5,7 @@
       <td><input type="text" v-model="net" /></td>
       <td>
         <button @click="show()" style="width: 100%">
-          Get data from /random endpoint (.net)
+          Get data from /random endpoint (.net) nie dziala
         </button>
       </td>
       <td rowspan="2">
