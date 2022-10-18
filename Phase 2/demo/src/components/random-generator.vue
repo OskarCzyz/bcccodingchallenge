@@ -5,7 +5,7 @@
       <td><input type="text" v-model="net" /></td>
       <td>
         <button @click="show()" style="width: 100%">
-          Get data from /random endpoint (.net) nie dziala
+          Get data from /random endpoint (.net) nie yo
         </button>
       </td>
       <td rowspan="2">
