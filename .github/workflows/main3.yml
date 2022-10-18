@@ -3,7 +3,7 @@ name: Deploy to Google Cloud Run vuejs
 on:
   push:
     paths: 
-      - "Phase 2/*"
+      - "Phase 2/**"
       
 jobs:
   deploy:
