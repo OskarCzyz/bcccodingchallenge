@@ -1,4 +1,5 @@
 ﻿using Bcc_Coding_challenge.Models;
+using Google.Api;
 using Google.Cloud.Diagnostics.AspNetCore;
 using Google.Cloud.Diagnostics.Common;
 using Microsoft.AspNetCore.Cors;
@@ -20,13 +21,26 @@ namespace Bcc_Coding_challenge.Controllers
         public void ConfigureServices(IServiceCollection services)
         {
             // Replace ProjectId with your Google Cloud Project ID.
-            services.AddGoogleTraceForAspNetCore(new AspNetCoreTraceOptions
+            // Replace Service with a name or identifier for the service.
+            // Replace Version with a version for the service.
+            services.AddGoogleDiagnosticsForAspNetCore("bcccodingchallenge", "netcoreapi", "latest");
+            services.AddGoogleErrorReportingForAspNetCore(new Google.Cloud.Diagnostics.Common.ErrorReportingServiceOptions
             {
-                ServiceOptions = new Google.Cloud.Diagnostics.Common.TraceServiceOptions
-                {
-                    ProjectId = "bcccodingchallenge"
-                }
+                // Replace ProjectId with your Google Cloud Project ID.
+                ProjectId = "bcccodingchallenge",
+                // Replace Service with a name or identifier for the service.
+                ServiceName = "netcoreapi",
+                // Replace Version with a version for the service.
+                Version = "latest"
             });
+
+            // Add any other services your application requires, for instance,
+            // depending on the version of ASP.NET Core you are using, you may
+            // need one of the following:
+
+            // services.AddMvc();
+
+            // services.AddControllersWithViews();
         }
 
         private readonly IConfiguration _configuration;
