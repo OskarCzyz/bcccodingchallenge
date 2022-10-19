@@ -44,9 +44,9 @@
               "target": "Package",
               "version": "[1.57.0.2794, )"
             },
-            "Google.Cloud.Diagnostics.AspNetCore3": {
+            "Google.Cloud.Diagnostics.AspNetCore": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[4.4.0, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
