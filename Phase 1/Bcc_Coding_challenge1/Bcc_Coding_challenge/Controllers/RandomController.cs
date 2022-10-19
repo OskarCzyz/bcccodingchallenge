@@ -47,10 +47,6 @@ namespace Bcc_Coding_challenge.Controllers
 
             Console.WriteLine("hello-world");
             
-            using (CloudTrace.Tracer.StartSpan("hello-world"))
-            {
-                Console.Out.WriteLine("Hello, World!");
-            }
             NpgsqlDataReader myReader;
             using (NpgsqlConnection myCon = new NpgsqlConnection(Environment.GetEnvironmentVariable("WHOLE_LINK")))
             {
