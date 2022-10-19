@@ -17,20 +17,6 @@ namespace Bcc_Coding_challenge.Controllers
 
     public class RandomController : Controller
     {
-        public void ConfigureServices(IServiceCollection services)
-        {
-
-            services.AddGoogleDiagnosticsForAspNetCore("bcccodingchallenge", "netcoreapi", "latest");
-            services.AddGoogleErrorReportingForAspNetCore(new Google.Cloud.Diagnostics.Common.ErrorReportingServiceOptions
-            {
-
-                ProjectId = "bcccodingchallenge",
-
-                ServiceName = "netcoreapi",
-
-                Version = "latest"
-            });
-        }
 
         private readonly IConfiguration _configuration;
 
@@ -46,10 +32,11 @@ namespace Bcc_Coding_challenge.Controllers
         }
         */
 
-
         [HttpGet]
         public JsonResult Get()
         {
+            
+
             int[] testing = Randoms.nums();
             string query = @"
                     select number
@@ -58,7 +45,12 @@ namespace Bcc_Coding_challenge.Controllers
 
             DataTable table = new DataTable();
 
-            Console.WriteLine("kiedy to pisze to jest 13:06");
+            Console.WriteLine("hello-world");
+            
+            using (CloudTrace.Tracer.StartSpan("hello-world"))
+            {
+                Console.Out.WriteLine("Hello, World!");
+            }
             NpgsqlDataReader myReader;
             using (NpgsqlConnection myCon = new NpgsqlConnection(Environment.GetEnvironmentVariable("WHOLE_LINK")))
             {
