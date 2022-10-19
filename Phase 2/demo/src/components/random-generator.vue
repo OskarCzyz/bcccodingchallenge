@@ -70,7 +70,7 @@ export default {
         }
 
         let endTime = new Date().getTime();
-        let str1 = `<table class='result1' border = 2><tr><td class="speed" colspan=3 style="text-align: center;">.Net ≈	${Math.round(
+        let str1 = `<table class='result1' border = 1><tr><td class="speed" colspan=3 style="text-align: center;">.Net ≈	${Math.round(
           endTime - 4 - startTime
         )} milliseconds</td><tr>`;
         str += `</tr></table>`;
@@ -100,7 +100,7 @@ export default {
         }
 
         let endTime = new Date().getTime();
-        let str1 = `<table class='result2' border = 2><tr><td class="speed" colspan=3 style="text-align: center;">Node ≈	${Math.round(
+        let str1 = `<table class='result2' border = 1><tr><td class="speed" colspan=3 style="text-align: center;">Node ≈	${Math.round(
           endTime - 4 - startTime
         )} milliseconds</td><tr>`
         str += `</tr></table>`;

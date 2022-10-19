@@ -6,35 +6,12 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Npgsql;
 using System.Data;
+using static Google.Api.Gax.Grpc.Gcp.AffinityConfig.Types;
 
 namespace Bcc_Coding_challenge.Controllers
 
 
 {
-
-
-    public class TraceSamplesConstructorController : Controller
-    {
-        private readonly IManagedTracer _tracer;
-
-        /// <summary>
-        /// The <see cref="IManagedTracer"/> is populated by dependency injection.
-        /// </summary>
-        public TraceSamplesConstructorController(IManagedTracer tracer)
-        {
-            _tracer = tracer;
-        }
-
-        public void TraceHelloWorld(string id)
-        {
-            // Change the name of the span to what makese sense in your context.
-            using (_tracer.StartSpan(id))
-            {
-                // The code whose execution is to be included in the span goes here.
-                ViewData["Message"] = "Hello World.";
-            }
-        }
-    }
 
     [Route("random")]
 
@@ -47,17 +24,9 @@ namespace Bcc_Coding_challenge.Controllers
             {
                 ServiceOptions = new Google.Cloud.Diagnostics.Common.TraceServiceOptions
                 {
-                    ProjectId = "Bcc_Coding_challenge"
+                    ProjectId = "bcccodingchallenge"
                 }
             });
-
-            // Add any other services your application requires, for instance,
-            // depending on the version of ASP.NET Core you are using, you may
-            // need one of the following:
-
-            // services.AddMvc();
-
-            // services.AddControllersWithViews();
         }
 
         private readonly IConfiguration _configuration;

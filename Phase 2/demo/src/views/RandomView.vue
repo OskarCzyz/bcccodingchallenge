@@ -4,7 +4,7 @@
 
 <template>
     <div class="random">
-      <h1>𝕿𝖍𝖎𝖘 𝖎𝖘 𝖆 𝖗𝖆𝖓𝖉𝖔𝖒 𝖕𝖆𝖌𝖊</h1>
+      <h1>𝕽𝖆𝖓𝖉𝖔𝖒</h1>
       <generateNumbers></generateNumbers>
     </div>
 </template>
