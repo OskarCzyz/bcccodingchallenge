@@ -7,7 +7,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Npgsql;
 using System.Data;
-using static Google.Api.Gax.Grpc.Gcp.AffinityConfig.Types;
 
 namespace Bcc_Coding_challenge.Controllers
 
@@ -20,27 +19,17 @@ namespace Bcc_Coding_challenge.Controllers
     {
         public void ConfigureServices(IServiceCollection services)
         {
-            // Replace ProjectId with your Google Cloud Project ID.
-            // Replace Service with a name or identifier for the service.
-            // Replace Version with a version for the service.
+
             services.AddGoogleDiagnosticsForAspNetCore("bcccodingchallenge", "netcoreapi", "latest");
             services.AddGoogleErrorReportingForAspNetCore(new Google.Cloud.Diagnostics.Common.ErrorReportingServiceOptions
             {
-                // Replace ProjectId with your Google Cloud Project ID.
+
                 ProjectId = "bcccodingchallenge",
-                // Replace Service with a name or identifier for the service.
+
                 ServiceName = "netcoreapi",
-                // Replace Version with a version for the service.
+
                 Version = "latest"
             });
-
-            // Add any other services your application requires, for instance,
-            // depending on the version of ASP.NET Core you are using, you may
-            // need one of the following:
-
-            // services.AddMvc();
-
-            // services.AddControllersWithViews();
         }
 
         private readonly IConfiguration _configuration;
@@ -69,7 +58,7 @@ namespace Bcc_Coding_challenge.Controllers
 
             DataTable table = new DataTable();
 
-            Console.WriteLine("kiedy to pisze to jest 15:08");
+            Console.WriteLine("kiedy to pisze to jest 13:06");
             NpgsqlDataReader myReader;
             using (NpgsqlConnection myCon = new NpgsqlConnection(Environment.GetEnvironmentVariable("WHOLE_LINK")))
             {
