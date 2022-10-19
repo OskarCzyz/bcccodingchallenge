@@ -1,5 +1,5 @@
 # .github/workflows/deploy.yml
-name: Deploy to Google Cloud Run vuejs
+name: Deploy to Google Cloud Run (vuejs)
 on:
   push:
     paths: 
