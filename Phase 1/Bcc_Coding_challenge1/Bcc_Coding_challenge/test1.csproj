@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <PackageReference Include="Google.Apis.SecretManager.v1" Version="1.57.0.2794" />
+    <PackageReference Include="Google.Cloud.Diagnostics.AspNetCore3" Version="5.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.9" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
     <PackageReference Include="Npgsql" Version="6.0.7" />
