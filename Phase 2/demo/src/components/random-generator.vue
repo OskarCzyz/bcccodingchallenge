@@ -34,82 +34,78 @@
 </template>
 
 <script>
-import axios from "axios";
+import axios from 'axios'
 
 export default {
-  
-  name: "generateNumbers",
+
+  name: 'generateNumbers',
   data: () => {
     return {
-      result1: "",
-      result2: "",
-      net: "",
-      nodejs: "",
+      result1: '',
+      result2: '',
+      net: '',
+      nodejs: '',
       Numbers: [],
-      Numbers2: [],
-    };
+      Numbers2: []
+    }
   },
   methods: {
     show: async function () {
       try {
-        let startTime = new Date().getTime();
-        let str = "<tr>";
-        let res;
+        const startTime = new Date().getTime()
+        let str = '<tr>'
+        let res
         for (let i = 0; i < this.net; i++) {
-          res = await axios.get(`https://netcoreapi-j56xipfh6a-lm.a.run.app/random`);
+          res = await axios.get('https://netcoreapi-j56xipfh6a-lm.a.run.app/random')
         }
         for (let i = 0; i < res.data.length; i++) {
-          if ((i + 1) % 3 == 0) {
-            str += `<td>${res.data[i]["number"]}</td></tr>`;
+          if ((i + 1) % 3 === 0) {
+            str += `<td>${res.data[i].number}</td></tr>`
             if (i !== res.data.length) {
-              str += "<tr>";
+              str += '<tr>'
             }
           } else {
-            str += `<td>${res.data[i]["number"]}</td>`;
+            str += `<td>${res.data[i].number}</td>`
           }
         }
 
-        let endTime = new Date().getTime();
-        let str1 = `<table class='result1' border = 1><tr><td class="speed" colspan=3 style="text-align: center;">.Net ≈	${Math.round(
-          endTime - 4 - startTime
-        )} milliseconds</td><tr>`;
-        str += `</tr></table>`;
-        str1 += str;
-        return (this.Numbers = str1);
+        const endTime = new Date().getTime()
+        let str1 = `<table class='result1' border = 1><tr><td class="speed" colspan=3 style="text-align: center;">.Net ≈ ${Math.round(endTime - 4 - startTime)} milliseconds</td><tr>`
+        str += '</tr></table>'
+        str1 += str
+        return (this.Numbers = str1)
       } catch (error) {
-        console.log(error);
+        console.log(error)
       }
     },
     node: async function () {
       try {
-        let startTime = new Date().getTime();
-        let str = "<tr>";
-        let res;
+        const startTime = new Date().getTime()
+        let str = '<tr>'
+        let res
         for (let i = 0; i < this.nodejs; i++) {
-          res = await axios.get(`https://nodejs-image-j56xipfh6a-lm.a.run.app/random`);
+          res = await axios.get('https://nodejs-image-j56xipfh6a-lm.a.run.app/random')
         }
         for (let i = 0; i < res.data.length; i++) {
-          if ((i + 1) % 3 == 0) {
-            str += `<td>${res.data[i]["number"]}</td></tr>`;
+          if ((i + 1) % 3 === 0) {
+            str += `<td>${res.data[i].number}</td></tr>`
             if (i !== res.data.length) {
-              str += "<tr>";
+              str += '<tr>'
             }
           } else {
-            str += `<td>${res.data[i]["number"]}</td>`;
+            str += `<td>${res.data[i].number}</td>`
           }
         }
 
-        let endTime = new Date().getTime();
-        let str1 = `<table class='result2' border = 1><tr><td class="speed" colspan=3 style="text-align: center;">Node ≈	${Math.round(
-          endTime - 4 - startTime
-        )} milliseconds</td><tr>`
-        str += `</tr></table>`;
-        str1 += str;
-        return (this.Numbers2 = str1);
+        const endTime = new Date().getTime()
+        let str1 = `<table class='result2' border = 1><tr><td class="speed" colspan=3 style="text-align: center;">Node ≈ ${Math.round(endTime - 4 - startTime)} milliseconds</td><tr>`
+        str += '</tr></table>'
+        str1 += str
+        return (this.Numbers2 = str1)
       } catch (error) {
-        console.log(error);
+        console.log(error)
       }
-    },
-  },
-};
+    }
+  }
+}
 </script>

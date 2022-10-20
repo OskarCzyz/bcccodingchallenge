@@ -1,5 +1,5 @@
 <script setup>
-  import generateNumbers from "../components/random-generator.vue";
+import generateNumbers from '../components/random-generator.vue'
 </script>
 
 <template>

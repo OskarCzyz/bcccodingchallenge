@@ -13,4 +13,3 @@
   @import './assets/style.css';
   @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 </style>
-
