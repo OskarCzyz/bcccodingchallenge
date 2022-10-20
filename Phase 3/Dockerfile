@@ -15,5 +15,10 @@ RUN npm install
 # Bundle app source
 COPY . .
 
-EXPOSE 3000/tcp
-CMD [ "node", "server.js" ]
+RUN npm run build
+COPY .env ./dist/
+
+WORKDIR ./dist
+
+EXPOSE 3000
+CMD [ "node", "index.js" ]
