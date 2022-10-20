@@ -1,5 +1,5 @@
 # .github/workflows/deploy.yml
-name: Deploy to Google Cloud Run (node)
+name: Deploy to Google Cloud Run (node(ts))
 on:
   push:
     paths: 
