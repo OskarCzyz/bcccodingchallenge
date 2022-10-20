@@ -1,3 +1,4 @@
+require('@google-cloud/trace-agent').start();
 import express, { Express, Request, Response, Router } from 'express';
 import dotenv from 'dotenv';
 import bodyParser from 'body-parser';
