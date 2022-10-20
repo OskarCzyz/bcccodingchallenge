@@ -68,6 +68,16 @@ h1 {
   right: 0px;
 }
 
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+}
+.home * {
+  align-items: center;
+}
+
 .center {
   height: 50%; /* Set your own height: percents, ems, whatever! */
   width: 50%; /* Set your own width: percents, ems, whatever! */
