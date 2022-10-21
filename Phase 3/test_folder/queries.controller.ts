@@ -5,7 +5,7 @@ import pg from 'pg';
 // const Pool = require("pg").Pool;
 const pool = new pg.Pool({
   user: process.env.DB_USER,
-  host: process.env.INSTANCE_CONNECTION_NAME,
+  host: `cloudsql/${process.env.INSTANCE_CONNECTION_NAME}`,
   database: process.env.DB_NAME,
   password: process.env.DB_PASS,
 });
