@@ -26,6 +26,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+require('@google-cloud/trace-agent').start();
 const express_1 = __importStar(require("express"));
 const dotenv_1 = __importDefault(require("dotenv"));
 const body_parser_1 = __importDefault(require("body-parser"));
@@ -45,6 +46,6 @@ app.get('/', (req, res) => {
 app.get('/random', queries_controller_1.getUsers);
 console.log(port);
 app.listen(port, () => {
-    console.log(`⚡️[server]: Server is running at https://localhost:${port}`);
+    console.log(`⚡️[server]: Server is running at http://localhost:${port}`);
 });
 exports.default = router;

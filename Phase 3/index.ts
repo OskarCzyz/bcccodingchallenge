@@ -29,6 +29,6 @@ app.get('/random', getUsers)
 console.log(port);
 
 app.listen(port, () => {
-  console.log(`⚡️[server]: Server is running at https://localhost:${port}`);
+  console.log(`⚡️[server]: Server is running at http://localhost:${port}`);
 });
 export default router;
